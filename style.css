@@ -41,6 +41,7 @@ body {
 .panel-detail {
   flex-grow: 1;
   flex-direction: column;
+  background-color: rgba(100, 255, 218, 0.2);
 }
 
 
@@ -68,6 +69,8 @@ body {
 .todo-item {
   padding: 15px;
   display:flex;
+  justify-content: space-between;
+  gap: 10px;
 }
 
 .todo-title,
